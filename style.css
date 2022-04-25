@@ -373,8 +373,8 @@ footer *:hover{
 }
 #avatar{
     border-radius: 50%;
-    width: 65px;
-    height: 35px;
+    width: 35px;
+    height: 15px;
     margin-right: 1rem;
 }
 .secondWrap h2{
