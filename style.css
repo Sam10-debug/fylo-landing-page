@@ -372,7 +372,6 @@ footer *:hover{
     margin: auto 0;
 }
 #avatar{
-    object-fit: contain;
     border-radius: 50%;
     width: 95px;
     margin-right: 1rem;
