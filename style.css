@@ -374,7 +374,7 @@ footer *:hover{
 #avatar{
     object-fit: contain;
     border-radius: 50%;
-    width: 65px;
+    width: 85px;
     margin-right: 1rem;
 }
 .secondWrap h2{
