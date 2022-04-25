@@ -293,6 +293,7 @@ footer *:hover{
         width: 80%;
         margin: 0 auto;
         height: 25px;
+        margin-bottom: 1rem;
     }
 .hero-section+section{
     background-color: hsl(240, 75%, 98%);
@@ -356,15 +357,18 @@ footer *:hover{
 .nameWrap{
     display: flex;
     gap: 0.5rem;
+    margin-top: 1rem;
 }
 
 .name{
     display: flex;
     flex-direction: column;
+    margin: auto 0;
 }
 #avatar{
     border-radius: 50%;
-    width: 35px;
+    width: 65px;
+    margin-right: 1rem;
 }
 .secondWrap h2{
     text-align: center;
@@ -387,6 +391,7 @@ footer *:hover{
 }
 .fourthWrap .right input{
     width: 80%;
+    height: 30px;
 }
 .fourthWrap .left h3{
     text-align: center;
@@ -445,5 +450,14 @@ footer{
     justify-content: flex-start;
     background: hsl(243, 87%, 12%);
     align-items: flex-start;
+}
+header nav ul li{
+    margin: 0 0.8rem;
+}
+#contact ul li img{
+    margin-right: 0.8rem;
+}
+#contact ul li:first-of-type{
+    margin-bottom: 0.8rem;
 }
 }
