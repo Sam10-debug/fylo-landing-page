@@ -372,9 +372,9 @@ footer *:hover{
     margin: auto 0;
 }
 #avatar{
-    border-radius: 80%;
+    border-radius: 70%;
     width: 85px;
-    height: 25px;
+    height: 40px;
     margin-right: 1rem;
 }
 .secondWrap h2{
