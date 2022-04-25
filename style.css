@@ -373,7 +373,7 @@ footer *:hover{
 }
 #avatar{
     border-radius: 50%;
-    width: 95px;
+    width: 45px;
     margin-right: 1rem;
 }
 .secondWrap h2{
@@ -465,5 +465,9 @@ header nav ul li{
 }
 #contact ul li:first-of-type{
     margin-bottom: 0.8rem;
+}
+header img{
+    height: 30px;
+    width: 100px;
 }
 }
