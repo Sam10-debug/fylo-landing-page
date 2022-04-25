@@ -375,7 +375,7 @@ footer *:hover{
     border-radius: 70%;
     width: 85px;
     height: 40px;
-    margin-right: 1rem;
+    margin: auto 1rem auto 0;
 }
 .secondWrap h2{
     text-align: center;
