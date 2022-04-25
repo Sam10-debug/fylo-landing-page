@@ -6,6 +6,7 @@
 body{
     min-height: 100vh;
     display: flex;
+    font-family: 'Open Sans', sans-serif;
 }
 a{
     text-decoration: none;
@@ -21,6 +22,7 @@ header{
 header nav {
     display: flex;
     justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
 }
 header nav ul{
     display: flex;
@@ -37,6 +39,7 @@ header img{
 .hero-section section h1{
     font-size: 2.5rem;
     margin-top:6rem;
+    font-family: 'Raleway', sans-serif;
 }
 .hero-section>section{
     float: left;
@@ -85,6 +88,7 @@ header img{
 }
 .secondWrap h2{
     margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
 }
 .thirdWrap img{
     width: 50px;
@@ -159,6 +163,7 @@ header img{
 }
 .fourthWrap .left h3{
     margin-bottom: 0.8rem;
+    font-family: 'Raleway', sans-serif;
 }
 .fourthWrap .left p{
     width: 80%;
