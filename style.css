@@ -117,10 +117,12 @@ header img{
 .thirdWrap{
     background: #ffffff;
     height: fit-content;
-    width: 40%;
+    min-width: 40%;
+    max-width: 70%;
     padding: 1rem;
     border-radius: 0.2rem;
     margin-top: 2rem;
+    /* max-height: 300px; */
 }
 .nameWrap{
     display: flex;
@@ -233,14 +235,16 @@ footer *:hover{
     color:  hsl(224, 93%, 58%);
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1200px) {
     main{
         width: 100%;
         padding: 1rem 0rem 0rem 0rem;
+        font-size: 0.8rem;
     }
     header{
         margin-bottom: 3rem;
         padding-left: 1rem;
+        font-size: 0.8rem;
     }
     header img{
         height: 20px;
@@ -251,7 +255,7 @@ footer *:hover{
         width: 100px;
     }
     .hero-section section h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top:2rem;
         margin-right: 5%;
         text-align: center;
@@ -274,6 +278,7 @@ footer *:hover{
     .hero-section section p{
         margin: 1rem 0 2rem 0;
         margin-right: 5%;
+        font-size: 0.8rem;
     }
     .hero-section+section{
         padding-left: 2rem;
@@ -292,7 +297,7 @@ footer *:hover{
     .inputWrap{
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: 0rem;
     }
     .hero-section .inputWrap input{
         width: 80%;
@@ -323,6 +328,7 @@ footer *:hover{
 .secondWrap h2{
     margin-bottom: 1rem;
     width: 100%;
+    font-size: 1.2rem;
 }
 .thirdWrap img{
     width: 50px;
@@ -333,6 +339,7 @@ footer *:hover{
 .secondWrap p{
     width: 95%;
     margin: 0 auto;
+    font-size: 0.8rem;
 }
 .secondWrap p+p{
     margin: 1rem 0;
@@ -364,19 +371,21 @@ footer *:hover{
     display: flex;
     gap: 0.5rem;
     margin-top: 1rem;
+    align-items: center;
+    font-size: 0.8rem;
+    font-style: italic;
 }
 
 .name{
     display: flex;
     flex-direction: column;
-    margin: auto 0;
+    justify-content: center;
 }
 #avatar{
-    border-radius: 70%;
-    width: 80px;
-    height: 60px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
     margin-right: 1rem;
-    margin-top: 0.8rem;
 }
 .secondWrap h2{
     text-align: center;
@@ -389,6 +398,7 @@ footer *:hover{
     flex-direction: column;
     justify-content: space-between;
     gap: 2rem;
+    font-size: 0.8rem;
     width: 100%;
 }
 .fourthWrap >*{
@@ -403,6 +413,7 @@ footer *:hover{
 }
 .fourthWrap .left h3{
     text-align: center;
+    font-size: 1.2rem;
 }
 .fourthWrap .left p{
     width: 100%;
@@ -440,7 +451,7 @@ footer #contact ul li{
     text-align: center;
 }
 #about,#contacts{
-    line-height: 1.5;
+    line-height: 2.0;
     margin-top: 3%;
 }
 footer #footer-img{
